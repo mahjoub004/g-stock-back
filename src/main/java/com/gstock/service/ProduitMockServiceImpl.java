@@ -1,10 +1,12 @@
 package com.gstock.service;
 
 import com.gstock.entity.Produit;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class ProduitMockServiceImpl implements IProduitService{
 
     private List<Produit> produits;
